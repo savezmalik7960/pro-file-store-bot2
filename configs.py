@@ -30,7 +30,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍💻 **Developer:** Catch me Group
+🧑🏻‍💻 **Developer:** @sahid_malik
 
 👥 **Support Group:** (https://t.me/malik_support_group)
 
@@ -48,10 +48,6 @@ Also remember that developer will Delete Adult Contents from Database. So better
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
 
-Hello 
-
-This is a Permanent FileStore Bot.
-
 How to Use Bot & it's Benefits??
 
 📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
@@ -60,5 +56,5 @@ How to Use Bot & it's Benefits??
 
 ❌ PORNOGRAPHY CONTENTS are strictly prohibited & get Permanent Ban.
 
-creator 👉 @sahid_malik. I Support Channel Also! Check **About Bot** Button.
+. creator 👉 @sahid_malik.
 """
