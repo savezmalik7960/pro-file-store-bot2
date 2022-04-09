@@ -32,12 +32,12 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍💻 **Developer:** Catch me Group
 
-👥 **Support Group:** (https://t.me/+5rtboxVNTrQ5NzYx)
+👥 **Support Group:** (https://t.me/malik_support_group)
 
-📢 **Updates Channel:** (https://t.me/+5rtboxVNTrQ5NzYx)
+📢 **Updates Channel:** (https://t.me/malik_support_group)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** Catch me Group
+🧑🏻‍💻 **Developer:** @sahid_malik
 
 Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
 
@@ -48,5 +48,17 @@ Also remember that developer will Delete Adult Contents from Database. So better
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
 
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
+Hello 
+
+This is a Permanent FileStore Bot.
+
+How to Use Bot & it's Benefits??
+
+📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
+
+⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from CopyRight Infringement Issue. I support Channel Also You Can Check About Bot.
+
+❌ PORNOGRAPHY CONTENTS are strictly prohibited & get Permanent Ban.
+
+creator 👉 @sahid_malik. I Support Channel Also! Check **About Bot** Button.
 """
