@@ -46,7 +46,9 @@ async def handle_force_sub(bot: Client, cmd: Message):
         await bot.send_message(
             chat_id=cmd.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**\n\n"
-                 "Due to Overload, Only Channel Subscribers can use the Bot!",
+                 "Due to Overload, Only Channel Subscribers can use the Bot मेरा उपयोग करने के लिए आपको मेरे बैकअप चैनल से जुड़ना होगा
+
+   कृपया इस चैनल से जुड़ें 👇",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
