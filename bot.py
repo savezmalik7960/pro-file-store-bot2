@@ -338,7 +338,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/savezmalik7960/PyroFilesStoreBot")
+                                             url="https://github.com/savezmalik7860/PyroFilesStoreBot")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
