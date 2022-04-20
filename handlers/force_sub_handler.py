@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @sahid_malij
 
 import asyncio
 from typing import (
@@ -50,10 +50,10 @@ async def handle_force_sub(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("🥂 Join Updates Channel to use me 🥂", url=invite_link.invite_link)
                     ],
                     [
-                        InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
+                        InlineKeyboardButton("♻️ Refresh ♻️", callback_data="refreshForceSub")
                     ]
                 ]
             ),
@@ -69,3 +69,4 @@ async def handle_force_sub(bot: Client, cmd: Message):
         )
         return 200
     return 200
+
