@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @sahid_malik
 
 import os
 import asyncio
@@ -73,12 +73,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/malik_support_group"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("❇️ Support Group ❇️", url="https://t.me/+gXuMKXOWm1UyOTdl"),
+                        InlineKeyboardButton("💥 Bots Channel 💥", url="https://t.me/malik_bots")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton(" ☘About Bot ☘", callback_data="aboutbot"),
+                        InlineKeyboardButton("☘ About Dev ☘", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -130,8 +130,8 @@ async def main(bot: Client, message: Message):
         await message.reply_text(
             text="**Choose an option from below:**",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("Save in Batch", callback_data="addToBatchTrue")],
-                [InlineKeyboardButton("Get Sharable Link", callback_data="addToBatchFalse")]
+                [InlineKeyboardButton("🔰 Save in Batch 🔰", callback_data="addToBatchTrue")],
+                [InlineKeyboardButton("♻️ Get Sharable Link ♻️", callback_data="addToBatchFalse")]
             ]),
             quote=True,
             disable_web_page_preview=True
@@ -318,12 +318,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/savezmalik7900/PyroFilesStoreBot")
+                        InlineKeyboardButton("🧲 Source Codes 🧲",
+                                             url="https://github.com/savezmalik7960/PyroFilesStoreBot2")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("♦️ Go Home ♦️", callback_data="gotohome"),
+                        InlineKeyboardButton("❇️ About Dev ❇️", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -337,12 +337,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/savezmalik7860/PyroFilesStoreBot")
+                        InlineKeyboardButton("🧲 Source Codes 🧲",
+                                             url="https://github.com/savezmalik7960/PyroFilesStoreBot2")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("♦️ About Bot ♦️", callback_data="aboutbot"),
+                        InlineKeyboardButton("☘ Go Home ☘", callback_data="gotohome")
                     ]
                 ]
             )
@@ -356,12 +356,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/malik_support_group"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/m_house786")
+                        InlineKeyboardButton("❇️ Support Group ❇️", url="https://t.me/+gXuMKXOWm1UyOTdl"),
+                        InlineKeyboardButton("💥 Bots Channel 💥", url="https://t.me/m_house786")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("♦️ About Bot ♦️", callback_data="aboutbot"),
+                        InlineKeyboardButton("☘ About Dev ☘", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -385,15 +385,15 @@ async def button(bot: Client, cmd: CallbackQuery):
             except UserNotParticipant:
                 invite_link = await get_invite_link(channel_chat_id)
                 await cmd.message.edit(
-                    text="**You Still Didn't Join ☹️, Please Join My Updates Channel to use this Bot!**\n\n"
+                    text="**You Still Didn't Join ☹️, Please Join My Updates Channel to use this Bot.. is bot ko use karne kae liye hamare update channelko join kare **\n\n"
                          "Due to Overload, Only Channel Subscribers can use the Bot!",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("👉 Join Updates Channel 👈", url=invite_link.invite_link)
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
+                                InlineKeyboardButton("♻️ Refresh ♻️", callback_data="refreshmeh")
                             ]
                         ]
                     ),
@@ -414,12 +414,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/malik_support_group"),
-                        InlineKeyboardButton("Bots Channel", url="https://https://t.me/malik_support_group")
+                        InlineKeyboardButton("❇️ Support Group ❇️", url="https://t.me/+gXuMKXOWm1UyOTdl"),
+                        InlineKeyboardButton("💥 Bots Channel 💥", url="https://t.me/malik_bots")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("❇️ About Bot ❇️", callback_data="aboutbot"),
+                        InlineKeyboardButton("❇️ About Dev ❇️", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -447,8 +447,8 @@ async def button(bot: Client, cmd: CallbackQuery):
         await cmd.message.edit("File Saved in Batch!\n\n"
                                "Press below button to get batch link.",
                                reply_markup=InlineKeyboardMarkup([
-                                   [InlineKeyboardButton("Get Batch Link", callback_data="getBatchLink")],
-                                   [InlineKeyboardButton("Close Message", callback_data="closeMessage")]
+                                   [InlineKeyboardButton("♻️ Get Batch Link ♻️", callback_data="getBatchLink")],
+                                   [InlineKeyboardButton("❌ Close Message ❌", callback_data="closeMessage")]
                                ]))
 
     elif "addToBatchFalse" in cb_data:
@@ -459,7 +459,7 @@ async def button(bot: Client, cmd: CallbackQuery):
         if message_ids is None:
             await cmd.answer("Batch List Empty!", show_alert=True)
             return
-        await cmd.message.edit("Please wait, generating batch link ...")
+        await cmd.message.edit("⏳ Please wait, generating batch link ...")
         await save_batch_media_in_channel(bot=bot, editable=cmd.message, message_ids=message_ids)
         MediaList[f"{str(cmd.from_user.id)}"] = []
 
